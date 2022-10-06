@@ -7,8 +7,8 @@
 /* Add Course Specific css Below */
 
 html {
-  /* background: -webkit-radial-gradient(ellipse, #87c6e0 0%, #00273a 100%) fixed;
-  background: radial-gradient(ellipse, #87c6e0 0%, #00273a 100%) fixed; */
+  background: -webkit-radial-gradient(ellipse, #87c6e0 0%, #00273a 100%) fixed;
+  background: radial-gradient(ellipse, #87c6e0 0%, #00273a 100%) fixed; 
 }
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',

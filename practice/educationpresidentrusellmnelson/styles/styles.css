@@ -1,40 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-:root {
-    --headin-font:"Archivo Black";
-    --headline-color-on-color: white; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 img {
     width: 20%;
     display: block;
     margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-main p {
-    width: 80%;
-    margin: 50px auto;
-    text-align: center;
+main h5 {
+    width: 29%;
+    margin: 0 auto;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-family: "Archivo",sans-serif;
+    line-height: 100%;
+    font-size: 17px;
+    margin-block-start: 4em;
 }
+
+main h6 {
+    width: 29%;
+    margin: 0 auto;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-family: "Archivo",sans-serif;
+    line-height: 100%;
+    font-size: 17px;
+    margin-block-end: 4em;
+}
+
 main div {
     margin: 3%;
     font-size: 50px;
+    margin-bottom: 3em;
+
+    
+}
+main p {
+    width: 40%;
+    margin: 0 auto;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    font-family: "Archivo Black",sans-serif;
+    line-height: 200%;
+}
+main div {
+    width: 25%;
+    margin: 0 auto;
+    text-align:center;
+    color: white;
+    font-size: 40px;
+
 }
 *{
     background-color:#fca6c9
 }
-/*h1 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-color);    
+h1 {
+    font-family: "Archivo",sans-serif;
+    color:white;    
     text-align: center;
-    color: #ffffff;
-    font-size: 30;
-    /*margin: 5px;
-    display: flex;
-  }*/
-header > h1 {
-font-family: var(--heading-font);
-color: var(--headline-color-on-color);    
-text-align: center;
-color: #ffffff;
-/*font-size: 30;*/
-padding: 1em;
-/*background-color: var(--paragraph-background-color);*/
+    font-size: 60px;
+    margin: 20px;/*
+    display: flex;*/
+}
+header h4 {
+    font-family: "Archivo",sans-serif;
+    color: white;    
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;/*
+}
+h1:hover {
+    color: #000000;
+    /*border-bottom: 2px solid #000000;*/
+}
+header p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
