@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+:root {
+    --headin-font:"Archivo Black";
+    --headline-color-on-color: white; 
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+main div {
+    margin: 3%;
+    font-size: 50px;
+}
+*{
+    background-color:#fca6c9
+}
+/*h1 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-color);    
+    text-align: center;
+    color: #ffffff;
+    font-size: 30;
+    /*margin: 5px;
+    display: flex;
+  }*/
+header > h1 {
+font-family: var(--heading-font);
+color: var(--headline-color-on-color);    
+text-align: center;
+color: #ffffff;
+/*font-size: 30;*/
+padding: 1em;
+/*background-color: var(--paragraph-background-color);*/
+}
