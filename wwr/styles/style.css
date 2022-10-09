@@ -21,7 +21,13 @@ nav a {
   height: 725px;
 }
 
+body div header a img {
+  display: block;
+}
 
+body div header a {
+  text-align: left;
+}
 body {
   text-align: center;
   background-color: #4973bc;
