@@ -53,7 +53,7 @@ h1 {
   color: steelblue;
 }
 img {
-  width: 80px;
+  width: 800px;
   border: 4px solid steelblue;
 }
 p {
@@ -62,9 +62,6 @@ p {
 footer {
   background-color: #ee0a0a;
   color: black;
-}
-#background {
-  height: 725px;
 }
 .main-para {
   font-size: 1.5em;
@@ -76,7 +73,7 @@ footer {
 }
 nav a:hover {
   background-color: #cfd0d2;
-  color:white;
+  color:black;
   /*background-color: var(--nav-hover-background-color);*/
 }
 .book, .join {
