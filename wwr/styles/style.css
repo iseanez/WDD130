@@ -104,15 +104,22 @@ footer a:hover {
 }
 footer p {
   font-size: 1.2em;
+  text-align: left;
 }
 footer div img {
-  width: 60px;
+  width: auto;
 }
 .logo {
   width: 160px;
 }
 footer p a:hover {
   text-decoration: underline;
+}
+footer p a {
+  text-align: left;
+}
+footer div a img {
+  display: block;
 }
 .icon {
   width: 80px;
