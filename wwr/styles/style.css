@@ -112,7 +112,7 @@ footer p {
   font-size: 1.2em;
 }
 footer div img {
-  width: 40px;
+  width: 60px;
 }
 .logo {
   width: 80px;
@@ -121,7 +121,7 @@ footer p a:hover {
   text-decoration: underline;
 }
 .icon {
-  width: 40px;
+  width: 80px;
 }
 #hero-img {
   width: 100%;
