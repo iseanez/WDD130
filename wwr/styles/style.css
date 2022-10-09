@@ -1,10 +1,36 @@
+#content {
+  /*margin-top:0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
+  max-width: 1600px;
+}
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration:none;
+}
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+#background {
+  height: 725px;
+}
+
+
+
+
+
 body {
     text-align: center;
     background-color: #4973bc;
-}
-#background {
-
-  height: 725px;
 }
 header {
   background-color: black;
@@ -15,22 +41,9 @@ header {
 h4 {
   color: white;
 }
-#content {
-  /*margin-top:0%;
-  margin-bottom: 0%;
-  margin-left: auto;
-  margin-right: auto;*/
-  margin: 0 auto;
-  max-width: 1600px;
-}
 nav {
   background-color: steelblue;
   padding: 10px;
-}
-nav a {
-  text-align: center;
-  color: white;
-  text-decoration:none;
 }
 a {
   color: white;
@@ -49,9 +62,6 @@ p {
 footer {
   background-color: #ee0a0a;
   color: black;
-}
-main {
-  text-align: center;
 }
 #background {
   height: 725px;
@@ -89,12 +99,7 @@ nav a:hover {
 #background {
   background-color: #5e4a4a;
 }
-#hero-msg h1, #hero-msg h4 {
-  text-align: center;
-}
-.button-box {
-  text-align: center;
-}
+
 .msg {
   background-color: #4973bc;
 }
