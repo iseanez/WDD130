@@ -53,6 +53,7 @@ main {
 }
 #background {
   height: 725px;
+  background-color: #4973bc;
 }
 .home-title {
   color: white;
@@ -126,8 +127,6 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
 }
