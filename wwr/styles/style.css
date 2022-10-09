@@ -22,9 +22,6 @@ nav a {
 }
 
 
-
-
-
 body {
   text-align: center;
   background-color: #4973bc;
@@ -66,7 +63,7 @@ footer {
 }
 #active {
   background-color: white;
-  color: steelblue;
+  color: red;
 }
 nav a:hover {
   background-color: #cfd0d2;
