@@ -111,6 +111,9 @@ footer a:hover {
 footer p {
   font-size: 1.2em;
 }
+footer div img {
+  width: 40px;
+}
 .logo {
   width: 80px;
 }
