@@ -1,0 +1,22 @@
+.circled {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    /*padding: 20px;*/
+    border: 13px solid #454343;
+    /*margin: 80px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*margin-inline-start: 75px;
+    margin-inline-end: 75px;*/
+    margin-left: 100px;
+    margin-right: 0px;
+    box-sizing: border-box 40px;
+
+}
+footer {
+    background-color: #737373;
+    width: 1280px;
+    height: 380px;
+    border: 0px;
+}
