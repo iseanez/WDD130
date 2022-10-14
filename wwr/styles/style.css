@@ -92,52 +92,9 @@ footer {
   margin-top: 200px;
   text-align: left;
 }
-/*.circled {
-  border-radius: 50%;
-  width: 250px;
-  height: auto;
-  padding: 20px;
-  border: 13px solid #454343;
-  margin: 80px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-inline-start: 75px;
-  margin-inline-end: 75px;
-  margin-left: 100px;
-  margin-right: 0px;
-  box-sizing: border-box 40px;*/
-
-.social img{
-  /*border-radius: 50%;
-  width: 250px;
-  height: auto;
-  padding: 20px;
-  border: 13px solid #454343;
-  margin: 80px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  /*margin-inline-start: 75px;
-  margin-inline-end: 75px;
-  margin-left: 1px;
-  margin-right: 0px;
-  box-sizing: border-box 10px;*/
-  display: inline-block;
-  /*text-align: left;*/
-}
-/*#face {
-  width: 4%;
-  float: left;
-}
-#twit {
-  width: 4%;
-  float:none;
-}
-#insta {
-  width: 4%;
-  float: right;
-}*/
 
 footer .social img {
+  display: inline-block;
   padding-top: 15px;
 }
 .main-para {
@@ -198,7 +155,7 @@ footer a:hover {
 }
 footer p {
   font-size: 1.2em;
-  display: inline-block;
+  /*display: inline-block;*/
 
 }
 footer div img {
