@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&family=Oswald&display=swap');
+
 #content {
   /*margin-top:0%;
   margin-bottom: 0%;
@@ -6,10 +9,20 @@
   margin: 0 auto;
   max-width: 1600px;
 }
+#logo_link {
+  padding-top: 5px;
+}
 nav a {
   text-align: center;
   color: white;
   text-decoration:none;
+  padding: 35px;
+}
+.card-img {
+  border: 10px solid #5E4A4A;
+}
+main section img{
+  box-sizing: border-box;
 }
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
@@ -31,12 +44,25 @@ body div header a img {
 body {
   text-align: center;
   background-color: #4973bc;
+  /*"League Spartan, Open Sans"*/
+  font-family: "League Spartan", Arial, sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 header {
   background-color: black;
+  font-family:"Open Sans", Arial, sans-serif;
 }
 .home-title {
   color: white;
+  font-family:"Open Sans", Arial, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: white;
@@ -62,6 +88,57 @@ p {
 footer {
   background-color: #ee0a0a;
   color: black;
+  padding: 25px 50px;
+  margin-top: 200px;
+  text-align: left;
+}
+/*.circled {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  border: 13px solid #454343;
+  margin: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-inline-start: 75px;
+  margin-inline-end: 75px;
+  margin-left: 100px;
+  margin-right: 0px;
+  box-sizing: border-box 40px;*/
+
+.social img{
+  /*border-radius: 50%;
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  border: 13px solid #454343;
+  margin: 80px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  /*margin-inline-start: 75px;
+  margin-inline-end: 75px;
+  margin-left: 1px;
+  margin-right: 0px;
+  box-sizing: border-box 10px;*/
+  display: inline-block;
+  /*text-align: left;*/
+}
+/*#face {
+  width: 4%;
+  float: left;
+}
+#twit {
+  width: 4%;
+  float:none;
+}
+#insta {
+  width: 4%;
+  float: right;
+}*/
+
+footer .social img {
+  padding-top: 15px;
 }
 .main-para {
   font-size: 1.5em;
@@ -80,18 +157,27 @@ nav a:hover {
   background-color: black;
   color: white;
   text-decoration:none;
-
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
 .book:hover, .join:hover {
   background-color: black;
   color: white;
 }
 .msg h2 {
   color: white;
+  font-family:"Open Sans", Arial, sans-serif;
 }
 .msg p{
   color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 #background {
   background-color: #5e4a4a;
@@ -99,6 +185,8 @@ nav a:hover {
 
 .msg {
   background-color: #4973bc;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer a{
@@ -110,7 +198,8 @@ footer a:hover {
 }
 footer p {
   font-size: 1.2em;
-  text-align: left;
+  display: inline-block;
+
 }
 footer div img {
   width: auto;
@@ -129,6 +218,7 @@ footer div a img {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
