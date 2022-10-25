@@ -38,7 +38,7 @@ main section img{
 }
 
 body {
-  background-color: #4973bc;
+  background-color: #000000;
   /*"League Spartan, Open Sans"*/
   font-family: "League Spartan", Arial, sans-serif;
   font-size: 22px;
@@ -48,9 +48,10 @@ body {
 
 h2 {
   margin: 0;
+  color: white
 }
 header {
-  background-color: black;
+  background-color: #2F2F2F;
   font-family:"Open Sans", Arial, sans-serif;
 }
 .home-title {
@@ -68,15 +69,15 @@ nav {
 }
 
 h1 {
-  color: red;
+  color: #ECECEC;
 }
 
 p {
   padding: 10px;
 }
 footer {
-  background-color: #ee0a0a;
-  color: black;
+  background-color: #320000;
+  color: #ECECEC;
   padding: 25px 50px;
   margin-top: 200px;
   text-align: left;
@@ -92,7 +93,7 @@ footer .social img {
 }
 #active {
   background-color: white;
-  color: red;
+  color: #320000;
 }
 nav a:hover {
   background-color: #cfd0d2;
@@ -100,8 +101,8 @@ nav a:hover {
   /*background-color: var(--nav-hover-background-color);*/
 }
 .book, .join {
-  background-color: black;
-  color: white;
+  background-color: #ECECEC;
+  color: #320000;
   text-decoration:none;
   font-size: 18px;
   padding: 15px 30px;
@@ -113,7 +114,7 @@ nav a:hover {
   margin: 200px 0;
 }
 .book:hover, .join:hover {
-  background-color: black;
+  background-color: #320000;
   color: white;
 }
 .msg h2 {
@@ -126,11 +127,11 @@ nav a:hover {
   padding-bottom: 15px;
 }
 #background {
-  background-color: #5e4a4a;
+  background-color: #2F2F2F;
 }
 
 .msg {
-  background-color: #5e4a4a;
+  background-color: #2F2F2F;
   line-height: 1.5em;
   padding: 35px;
 }
