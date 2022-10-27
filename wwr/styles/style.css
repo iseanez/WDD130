@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&family=Oswald&display=swap');
 
 #content {
@@ -15,8 +17,10 @@
 nav a {
   text-align: center;
   color: white;
+  /*color: white;*/
   text-decoration:none;
   padding: 35px;
+  /*text-shadow: 0 0 4px white;*/
 }
 .card-img {
   border: 10px solid #5E4A4A;
@@ -40,7 +44,7 @@ main section img{
 body {
   background-color: #000000;
   /*"League Spartan, Open Sans"*/
-  font-family: "League Spartan", Arial, sans-serif;
+  font-family: "Archivo Black", Arial, sans-serif;
   font-size: 22px;
   padding: 0;
   margin: 0;
@@ -51,20 +55,27 @@ h2 {
   color: white
 }
 header {
-  background-color: #2F2F2F;
-  font-family:"Open Sans", Arial, sans-serif;
+  background-color: black;
+  font-family:"Archivo Black", Arial, sans-serif;
+  
+}
+header h4 {
+  font-family:"Archivo Black", Arial, sans-serif;
+  font-style: italic;
+
 }
 .home-title {
   color: white;
-  font-family:"Open Sans", Arial, sans-serif;
+  font-family:"Archivo Black", Arial, sans-serif;
   font-size: 2em;
   margin-top: 10px;
 }
 h4 {
   color: white;
+  font-family: "League Spartan", Helvetica, sans-serif;
 }
 nav {
-  background-color: black;
+  background-color: #2F2F2F;
   padding: 10px;
 }
 
@@ -96,18 +107,26 @@ footer .social img {
   color: #320000;
 }
 nav a:hover {
-  background-color: #cfd0d2;
-  color:black;
+  background-color: #320000;
+  color:whitesmoke;
+  font-family: "Archivo Black", Helvetica, sans-serif;
+  font-size:xx-large;
+  /*font-weight: bolder;
+  font-size: large;*/
+
   /*background-color: var(--nav-hover-background-color);*/
 }
 .book, .join {
-  background-color: #ECECEC;
-  color: #320000;
+  background-color: #2F2F2F;
+  color: white;
+  /*color: #ECECEC;*/
   text-decoration:none;
   font-size: 18px;
+  font-family: "Archivo Black", Helvetica, sans-serif;
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: 5px;
+  /*text-shadow: 0 0 3px white;*/
 }
 
 .rivers-card, .camping-card, .rapids-card {
@@ -116,22 +135,27 @@ nav a:hover {
 .book:hover, .join:hover {
   background-color: #320000;
   color: white;
+  font-family: "Archivo Black", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size:xx-large;
+  
 }
 .msg h2 {
-  color: white;
-  font-family:"Open Sans", Arial, sans-serif;
+  color: #320000;
+  font-family:"Archivo Black", Arial, sans-serif;
 }
 .msg p{
-  color: white;
+  color: #000000;
   font-size: .8em;
   padding-bottom: 15px;
+  font-family: "League Spartan", Helvetica, sans-serif;
 }
 #background {
   background-color: #2F2F2F;
 }
 
 .msg {
-  background-color: #2F2F2F;
+  background-color: #ECECEC;
   line-height: 1.5em;
   padding: 35px;
 }
@@ -145,6 +169,7 @@ footer a:hover {
 }
 footer p {
   font-size: 1.2em;
+  font-family: "League Spartan",Helvetica, sans-serif;
   /*display: inline-block;*/
 
 }
