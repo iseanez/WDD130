@@ -87,7 +87,8 @@ h2 {
   color: white
 }
 header {
-  background-color: black
+  background-color: black;
+  opacity: .6;
   font-family:"Archivo Black", Arial, sans-serif;
   display:grid;
   grid-template-columns: 150px auto;
