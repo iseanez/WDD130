@@ -106,11 +106,10 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
 }
+
 nav a {
   padding:1em;
   min-width: 120px;
@@ -128,11 +127,11 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(8, 8%);
+  grid-template-columns: repeat(8, 12%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . . home home . . ."
     ". . . . top . . ."
-    ". left left center center right right ."
+    ". left left center1 center2 right right ."
     "page2 page2 . page3 page3 . page4 page4";
 }
 .sitemap > div {
@@ -144,24 +143,24 @@ nav a:hover {
   line-height: 3em;
 }
 .sm-page2 {
-  font-size: x-small;
+  font-size: small;
   grid-area: page2;
   background-color: #ccc;
-  line-height: 3em;
+  line-height: 2em;
 }
 .sm-page3 {
-  font-size: x-small;
+  font-size: small;
   grid-area: page3;
   background-color: #ccc;
-  line-height: 3em;
+  line-height: 2em;
 }
 .sm-page4 {
-    font-size: x-small;
+    font-size: small;
     grid-area: page4;
     background-color: #ccc;
-    line-height: 3em;
+    line-height: 2em;
   }
-  .top {
+.top {
   grid-area: top;
   border-left: 1px solid;
 }
@@ -169,6 +168,15 @@ nav a:hover {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
+}
+.center1 {
+    grid-area: center1;
+    border-top: 1px solid;
+  }
+.center2 {
+    grid-area: center2;
+    border-top: 1px solid;
+    border-left: 1px solid;
 }
 .right {
   grid-area: right;
