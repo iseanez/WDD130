@@ -474,7 +474,7 @@ https://sebhastian.com/html-hover-text/
 #subpagehero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 .subpage-title {
   color: white;
@@ -486,20 +486,7 @@ https://sebhastian.com/html-hover-text/
   font-size: 100px;
   color: #6f7364;
 }
-/*@media screen and (max-width: 900px) {
-  #subpagehero, .subpage-grid {
-      display: block;
-      height: auto;
-  #subpagehero {
-        margin-top: 0;
-    }
-  #subpagehero-msg {
-      margin-top: 0;
-  }
-  #subpagehero-msg h4 {
-    display: none;  
-  }
-}
+
 /*Finish New Styles for 10healthbenefitsofwhitewaterrafting.html */
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
