@@ -278,8 +278,9 @@ https://sebhastian.com/html-hover-text/
   visibility: visible;
 }
 
-
+/****************************************************************/
 /*Start New Styles for 10healthbenefitsofwhitewaterrafting.html */
+/****************************************************************/
 .subpage-grid {
   display: grid;
   /*grid-template-columns: repeat(10,1fr);*/
@@ -369,10 +370,6 @@ https://sebhastian.com/html-hover-text/
 
 }
 
-
-
-
-
 .benefit1 {
   background-color: #ECECEC;
   padding: 5px;
@@ -450,9 +447,6 @@ https://sebhastian.com/html-hover-text/
   text-align: left;
 }
 
-
-
-
 #subpagehero-msg h1, #subpagehero-msg h4 {
   color: white;
   text-align: center;
@@ -487,7 +481,9 @@ https://sebhastian.com/html-hover-text/
   color: #6f7364;
 }
 
+/*****************************************************************/
 /*Finish New Styles for 10healthbenefitsofwhitewaterrafting.html */
+/*****************************************************************/
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
