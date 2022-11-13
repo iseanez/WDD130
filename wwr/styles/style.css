@@ -447,7 +447,10 @@ https://sebhastian.com/html-hover-text/
   text-align: left;
 }
 
-#subpagehero-msg h1, #subpagehero-msg h4 {
+#subpagehero-msg h6 {
+  font-size: 12px;
+}
+#subpagehero-msg h1, #subpagehero-msg h4, #subpagehero-msg h6 {
   color: white;
   text-align: center;
 }
