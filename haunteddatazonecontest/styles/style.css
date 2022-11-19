@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.gotosite {
+    background-color: lightgray;
+    color:  #320000;
+    text-decoration:none;
+    font-size: 15px;
+    font-family: "Creepster", Arial, Helvetica, sans-serif; 
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.button-box {
+    text-align: center;
+    z-index: 1;
+  }
+  .gotosite:hover {
+    background-color: #320000;
+    color: white;
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;  
+    font-family: "Creepster", Arial, Helvetica, sans-serif; 
+  }
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  .titlestory-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+    /*margin-top: -100px;*/
+  }
+  .titlestory-block h1{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    z-index: 1;  
+    margin-top: 20px; 
+    font-family:"Creepster", Arial, Helvetica, sans-serif; 
+    font-size: 4em;
+    color: white;
+  }
+
+  .titlestory-block #tellstory {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    z-index: 1;    
+    font-family:"Special Elite", 'Times New Roman', Times, serif; 
+    color: white;
+    font-size: 20px;
+    margin-top: -50px;
+    line-height: 30px;
+  }
+  .titlestory-block #discretion {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    z-index: 1;    
+    font-family:"Special Elite", 'Times New Roman', Times, serif; 
+    color: white;
+    font-size: 20px;
+    margin-top: 440px;
+    line-height: 10px;
+  }
+
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
