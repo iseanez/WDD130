@@ -138,6 +138,7 @@ footer {
 
 footer .social img {
   display: inline-block;
+  
   padding-top: 15px;
 }
 .main-para {
@@ -511,7 +512,7 @@ ul {
 }
 
 form li + li {
-  margin-top: 1em;
+  /*margin-top: 1em;*/
 }
 
 label {
