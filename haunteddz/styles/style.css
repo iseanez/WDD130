@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+#FormDiv {
+  position:absolute;
+  top: 50%;
+  right:0;
+  left:0;
+  }
 .titlemainpage {
   grid-column: 3/6;
   grid-row: 1/2;
@@ -26,7 +32,7 @@
 
 #backgroundgifts_awarded {
   z-index: -1;
-  height: 1200px;
+  height: 900px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr;
   background: rgb(0,0,0);
@@ -38,7 +44,7 @@
 
 #backgroundgifts_costumes {
   z-index: -1;
-  height: 725px;
+  height: 900px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr;
   background: rgb(0,0,0);
@@ -50,7 +56,7 @@
 
 #backgroundgifts_decorations {
   z-index: -1;
-  height: 725px;
+  height: 900px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr;
   background: rgb(0,0,0);
@@ -168,10 +174,12 @@ margin-top: -50px;
 }
 
 #content_haunteddz {
-  /*margin: 0 auto;
-  max-width: 1600px;*/
+  margin: 0 auto;
+  /*max-width: 1600px;*/
+  height: 400px;
   background-color:black;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: -60px;
 }
 .footerhaunteddz {
   background-color:black;
@@ -422,8 +430,11 @@ button {
 }
 
 #feedback {
-  background-color: antiquewhite;
+  background-color: black;
+  color: white;
   position: absolute;
+  font-family: "Special Elite", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
   top: 0;
   left: 0;
   right: 0;
@@ -431,6 +442,17 @@ button {
   /* make this element invisible until we are ready for it */
   display: none;      
 }
+
+label#nameid {
+  text-align: start;
+}
+label#mailid {
+  text-align: left;
+}
+label#msgid {
+  text-align: left;
+}
+
 .moveDown {
   margin-top: 3em;
 }
