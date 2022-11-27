@@ -205,6 +205,18 @@ footer a:hover {
 footer p a:hover {
   text-decoration: underline;
 }
+nav.contactheader {
+  color: yellow;
+  margin-right: 30px;
+  z-index: 1;
+  margin-top: -170px;
+  display: list-item;
+  text-align: right;
+  font-family: "Special Elite", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
+
 nav {
   color: yellow;
   margin-right: 30px;
