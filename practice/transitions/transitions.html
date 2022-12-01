@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<style>
+body,html,iframe { width: 100%; height: 100%; margin: 0; border: 0; }
+
+#mainframe.normal
+{
+    opacity: 1.0;
+}
+#mainframe.faded
+{
+    opacity: 0.0;
+}
+#mainframe
+{
+        /* Firefox */
+        -moz-transition-property: opacity;
+        -moz-transition-duration: 3s;
+        /* WebKit */
+        -webkit-transition-property: opacity;
+        -webkit-transition-duration: 3s;
+        /* Standard */
+        transition-property: opacity;
+        transition-duration: 3s;
+}
+
+</style>
+
+<!--<script language="javascript">-->
+<script>
+function change(page)
+{
+//  document.write('Hello World');
+    document.getElementById('mainframe').className="faded";
+    setTimeout(function()
+    {
+        document.getElementById('mainframe').src=page+'.html';
+        document.getElementById('mainframe').className="normal";
+    }, (2 * 1000));
+}
+</script>
+</head>
+
+<body style="background-color:black;">
+    <header id="header">
+        <h2 id="name">
+            FRANCISCO</br>
+            FRANCHETTI
+        </h2>
+        <nav id="pages">
+            <ul id="list-nav">
+                <li class="current"><a onclick="change('home')" href="#">HOME</a></li>
+                <li><a onclick="change('research')" href="#">RESEARCH</a></li>
+                <li><a onclick="change('teaching')" href="#">TEACHING</a></li>
+                <li><a onclick="change('contact')" href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <iframe id="mainframe" class="normal" src="home.html"></iframe>
+</body>
+
+</html>

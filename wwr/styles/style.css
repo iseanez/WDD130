@@ -3,6 +3,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&family=Oswald&display=swap');
 
+/*START MANAGING TRANSITION */
+body,html,iframe { width: 100%; height: 100%; margin: 0; border: 0; }
+
+#mainframe.normal
+{
+    opacity: 1.0;
+}
+#mainframe.faded
+{
+    opacity: 0.0;
+}
+#mainframe
+{
+        /* Firefox */
+        -moz-transition-property: opacity;
+        -moz-transition-duration: 3s;
+        /* WebKit */
+        -webkit-transition-property: opacity;
+        -webkit-transition-duration: 3s;
+        /* Standard */
+        transition-property: opacity;
+        transition-duration: 3s;
+}
+/*FINISH MANAGING TRANSITION */
+
 #content {
   margin: 0 auto;
   max-width: 1600px;

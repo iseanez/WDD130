@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="image_header" style="background-image: url('images/header_backgroundimage.jpg')">
+      <p class="header"></p>
+    </div>
+    <nav class="contactheader">
+      <p><a href="index.html">Home</a></p>
+      <!--<p><a href="haunteddz_intro.html">The Scary Story</a></p>-->
+      <p><a href="haunteddz_awarded.html">The Awarded</a></p>
+      <p><a href="haunteddz_costume.html">Xtreme Costumes</a></p>
+      <p><a href="haunteddz_dec.html">Xtreme Decorations</a></p>
+    </nav>
+  </header>
+  <main>
+    <div id="content_haunteddz">
+      <div id="feedback">
+      </div>
+      <div id="FormDiv" style="text-align:center;">
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                <label id="nameid" for="name">Your monstrous Name:</label>
+                <input type="text" id="name" name="user_name" autofocus required/>
+                </li>
+                <li>
+                <label id="mailid" for="mail">Your possessed     E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                <label id="msgid" for="msg">Your creepy Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send Summon</button>
+                </li>                  
+            </ul>                
+        </form>
+      </div>
+  </main>
+    <footer>
+      <div class="image_footer" style="background-image: url('images/footer_backgroundimage.jpg')">
+        <p class="footer"></p>
+      </div>
+      <div class="social">
+            <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="fb  icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon">
+            </a>
+          </div>
+            <p>Haunted Site &copy; 2022 - Israel Seañez </p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+      </div>
+    </footer>
+  
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! It was terribly scary having you with us. We will be in your nightmares very soon!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
